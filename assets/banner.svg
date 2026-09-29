@@ -1,0 +1,53 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Iran Market Data Analysis - Collaborative Class Project">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="55%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="300" fill="url(#bg2)"/>
+  <rect width="1200" height="300" fill="url(#grid2)"/>
+
+  <!-- bar chart motif -->
+  <g>
+    <rect x="95"  y="180" width="34" height="70"  rx="5" fill="#2dd4bf" fill-opacity="0.55"/>
+    <rect x="147" y="140" width="34" height="110" rx="5" fill="#2dd4bf" fill-opacity="0.75"/>
+    <rect x="199" y="165" width="34" height="85"  rx="5" fill="#fbbf24" fill-opacity="0.7"/>
+    <rect x="251" y="110" width="34" height="140" rx="5" fill="#2dd4bf" fill-opacity="0.9"/>
+    <rect x="303" y="75"  width="34" height="175" rx="5" fill="#fbbf24" fill-opacity="0.95"/>
+  </g>
+
+  <!-- trend line -->
+  <polyline points="112,162 164,122 216,148 268,92 320,58" fill="none" stroke="#f0fdfa" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.9"/>
+  <g fill="#f0fdfa">
+    <circle cx="112" cy="162" r="5"/>
+    <circle cx="164" cy="122" r="5"/>
+    <circle cx="216" cy="148" r="5"/>
+    <circle cx="268" cy="92"  r="5"/>
+    <circle cx="320" cy="58"  r="5"/>
+  </g>
+
+  <!-- baseline -->
+  <line x1="85" y1="252" x2="350" y2="252" stroke="#5eead4" stroke-width="2.5" stroke-opacity="0.55" stroke-linecap="round"/>
+
+  <!-- title block (Persian) -->
+  <text x="392" y="120" font-family="Vazirmatn, Tahoma, 'Segoe UI', sans-serif" font-size="47" font-weight="700" fill="#f8fafc">تحلیل داده‌های بازار ایران</text>
+  <text x="394" y="163" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#5eead4">Iran Market Data Analysis — Collaborative Class Project</text>
+  <text x="394" y="204" font-family="Vazirmatn, Tahoma, 'Segoe UI', sans-serif" font-size="18" fill="#99f6e4">استخراج از وب · پاک‌سازی داده · تحلیل · مصورسازی</text>
+
+  <!-- decorative dots -->
+  <g fill="#2dd4bf" fill-opacity="0.5">
+    <circle cx="1080" cy="70"  r="6"/>
+    <circle cx="1110" cy="70"  r="6"/>
+    <circle cx="1140" cy="70"  r="6"/>
+  </g>
+
+  <!-- bottom accent line -->
+  <rect x="0" y="294" width="1200" height="6" fill="#2dd4bf" fill-opacity="0.6"/>
+</svg>
